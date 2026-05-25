@@ -1,0 +1,106 @@
+/* style.css */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+  font-family: Inter, sans-serif;
+
+}
+
+#colour-palette h2 {
+  margin-top: 2rem;;
+      margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #28492f;
+    margin-left:50px;
+}
+
+
+
+
+
+
+
+.pantone-grid {
+margin-left:50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  max-width: 1000px;
+  z-index:3;
+}
+
+/* CARD */
+
+.pantone-card {
+  width: 220px;
+  background: white;
+  padding: 14px;
+  transition: transform 0.2s ease;
+    z-index:3;
+}
+
+.pantone-card:hover {
+  transform: translateY(-2px);
+ 
+}
+
+/* COLOR AREA */
+
+.color-swatch {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+    z-index:3;
+}
+
+/* invisible color picker on top */
+
+.color-input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+width: 100%;
+height: 100%;
+  cursor: pointer;
+}
+
+/* INFO */
+
+.pantone-info {
+  padding-top: 14px;
+}
+
+.pantone-title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.pantone-code {
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+.pantone-name {
+  font-size: 1.1rem;
+}
+
+/* optional */
+
+@media (max-width: 600px) {
+  body {
+    padding: 24px;
+  }
+
+  .pantone-card {
+    width: 100%;
+  }
+}

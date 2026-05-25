@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/panteonecard.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+/>
+    <script src="js/p5.js"></script>
+    <script src="js/addons/p5.sound.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="topnav">
+      <input type="checkbox" id="menuToggle" />
+      <label for="menuToggle" class="hamburger" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./index.html#section3">About</a></li>
+      </ul>
+    </nav>
+   
+
+<section id ="projectsection">
+
+
+    <h1>Projects</h1><a href="#iplant" class="nav-link">Plant App</a><br>
+<a href="#static-websites" class="nav-link">Static Websites</a>
+   
+  
+  <h2 id="iplant" class="project-title">
+   <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264.96 66.89" id="logo" class="sc-c9f8a24a-1 hJzjLt"><path d="M0 13.97c0-2.06.64-3.73 1.91-5S4.95 7.06 7.2 7.06c2.4 0 4.19.62 5.36 1.87 1.18 1.25 1.76 2.9 1.76 4.97s-.59 3.64-1.76 4.86C11.38 19.98 9.6 20.6 7.2 20.6s-4.14-.61-5.36-1.84C.62 17.54 0 15.94 0 13.97m7.2 46.01c-2.26 0-3.94-.62-5.04-1.87S.5 55.3.5 53.43V28.81c0-2.06.55-3.7 1.66-4.9q1.65-1.8 5.04-1.8c3.39 0 3.95.6 5.08 1.8s1.69 2.78 1.69 4.75v24.77c0 1.87-.59 3.43-1.76 4.68-1.18 1.25-2.84 1.87-5 1.87ZM33.19 43.34v9c0 2.5-.66 4.39-1.98 5.69s-3.06 1.94-5.22 1.94h-.07c-2.35 0-4.21-.65-5.58-1.94-1.37-1.3-2.05-3.19-2.05-5.69V42.19c0-5.09.77-8.95 2.3-11.59 1.54-2.64 3.48-4.54 5.83-5.69l-.36-1.37h-1.22c-2.21 0-3.95-.71-5.22-2.12-1.27-1.42-1.93-3.35-1.98-5.8-.05-2.4.59-4.34 1.91-5.83s3.08-2.23 5.29-2.23h18.94c4.85 0 8.79 1.45 11.84 4.36 3.05 2.9 4.57 7.48 4.57 13.72 0 4.51-.79 8.06-2.38 10.66s-3.67 4.42-6.26 5.47c-2.59 1.06-5.4 1.58-8.42 1.58h-9.94Zm-.93-13.89c0 1.06.2 1.75.61 2.09s1.14.5 2.2.5h6.7c2.02 0 3.48-.47 4.39-1.4s1.37-2.27 1.37-4-.46-3.05-1.37-3.96-2.38-1.37-4.39-1.37h-6.7c-1.06 0-1.79.14-2.2.43s-.61.98-.61 2.09zM69.98 59.98c-2.35 0-4.12-.62-5.29-1.87-1.18-1.25-1.76-2.81-1.76-4.68V11.66c0-2.06.59-3.78 1.76-5.15 1.18-1.37 2.94-2.05 5.29-2.05 2.11 0 3.74.68 4.9 2.05 1.15 1.37 1.73 3.04 1.73 5v41.9c0 1.87-.58 3.43-1.73 4.68s-2.79 1.87-4.9 1.87ZM90.86 59.98c-3.55 0-6.32-.96-8.32-2.88-1.99-1.92-2.99-4.61-2.99-8.06s1.15-5.96 3.46-7.52c2.3-1.56 5.26-2.34 8.86-2.34 2.11 0 4.03.14 5.76.43s3.29.7 4.68 1.22h.22v-1.08c0-1.1-.41-1.98-1.22-2.63-.82-.65-1.85-.95-3.1-.9-1.2 0-2.22.07-3.06.22s-1.88.38-3.13.72c-2.3.58-4.3.53-5.98-.14s-2.83-1.99-3.46-3.96c-.58-2.06-.44-3.79.4-5.18s2.12-2.47 3.85-3.24c1.49-.72 3.16-1.32 5-1.8 1.85-.48 3.85-.72 6.01-.72 6.29 0 10.91 1.52 13.86 4.57s4.43 8.15 4.43 15.3v11.16c0 1.97-.6 3.6-1.8 4.9s-2.86 1.94-4.97 1.94c-2.3 0-4.02-.65-5.15-1.94-1.13-1.3-1.69-2.88-1.69-4.75v-1.66h-1.44c0 1.25-.23 2.52-.68 3.82s-1.39 2.38-2.81 3.24-3.66 1.3-6.73 1.3Zm.72-15.77c0 .82.3 1.39.9 1.73s1.91.5 3.92.5c1.82 0 3.1-.17 3.82-.5.72-.34 1.08-.91 1.08-1.73q0-1.155-1.08-1.62c-.72-.31-1.99-.47-3.82-.47-2.02 0-3.32.16-3.92.47q-.9.465-.9 1.62M126.86 59.98c-2.11 0-3.8-.64-5.08-1.91-1.27-1.27-1.91-2.84-1.91-4.72V29.52c0-2.02.6-3.72 1.8-5.11s2.93-2.09 5.18-2.09 3.89.7 5.04 2.09 1.73 3.14 1.73 5.26v3.6h1.3c0-2.74.49-4.9 1.48-6.48q1.47-2.37 3.78-3.42c1.54-.7 3.07-1.04 4.61-1.04 3.7 0 6.41 1.33 8.14 4 1.73 2.66 2.59 6.44 2.59 11.34v15.7c0 1.87-.62 3.44-1.87 4.72-1.25 1.27-2.93 1.91-5.04 1.91s-3.88-.64-5.15-1.91-1.91-2.84-1.91-4.72V40.63c0-1.73-.32-3.07-.97-4.03s-1.6-1.44-2.84-1.44c-1.44 0-2.48.53-3.13 1.58-.65 1.06-.97 2.4-.97 4.03v12.6c0 1.87-.6 3.44-1.8 4.72-1.2 1.27-2.86 1.91-4.97 1.91ZM160.92 33.05c0-2.54.89-4.55 2.66-6.01 1.78-1.46 3.94-2.2 6.48-2.2h11.74v-.94c-2.35-.1-4.37-.72-6.05-1.87s-2.95-2.6-3.82-4.36c-.86-1.75-1.3-3.54-1.3-5.36 0-2.88.61-5.23 1.84-7.06 1.22-1.82 2.88-3.16 4.97-4q3.135-1.26 7.02-1.26c2.3 0 4.07.37 5.29 1.12 1.22.74 2.08 1.73 2.56 2.95s.72 2.58.72 4.07c0 2.06-.61 3.82-1.84 5.26s-3.25 2.16-6.08 2.16h-3.96l-.36.79c.14.38.49.91 1.04 1.58q.825 1.005 1.62 2.52c.53 1.01.79 2.28.79 3.82 0 2.93-.77 5.02-2.3 6.26-1.54 1.25-3.43 1.87-5.69 1.87v1.37c2.26 0 4.15.62 5.69 1.87s2.3 3.36 2.3 6.34c0 1.49-.26 2.76-.79 3.82s-1.07 1.91-1.62 2.56-.9 1.19-1.04 1.62l.36.86h3.96c2.83 0 4.88.74 6.16 2.23 1.27 1.49 1.91 3.29 1.91 5.4 0 1.44-.24 2.81-.72 4.1-.48 1.3-1.36 2.34-2.63 3.13s-3.06 1.19-5.36 1.19c-2.59 0-4.93-.46-7.02-1.37s-3.74-2.3-4.97-4.18c-1.22-1.87-1.84-4.22-1.84-7.06 0-1.92.43-3.77 1.3-5.54.86-1.78 2.13-3.26 3.82-4.46 1.68-1.2 3.7-1.85 6.05-1.94v-.86h-11.74c-2.54 0-4.71-.76-6.48-2.27-1.78-1.51-2.66-3.56-2.66-6.16ZM217.08 60.19c-2.54 0-4.84-.58-6.88-1.73s-3.64-2.8-4.79-4.93c-1.15-2.14-1.73-4.64-1.73-7.52V33.34l-2.66.36c-1.44.19-2.71-.31-3.82-1.51-1.1-1.2-1.66-2.71-1.66-4.54s.55-3.32 1.66-4.5c1.1-1.18 2.38-1.67 3.82-1.48l2.66.36-.07-4.9c-.05-1.92.5-3.44 1.66-4.57 1.15-1.13 2.83-1.69 5.04-1.69s3.91.56 5.11 1.69 1.75 2.65 1.66 4.57l-.14 4.9 3.82-.5c2.59-.38 4.56.08 5.9 1.4s2.02 2.89 2.02 4.72-.66 3.4-1.98 4.72-3.23 1.81-5.72 1.48l-4.03-.5v10.73c0 .62.22 1.19.65 1.69s.96.66 1.58.47c.72-.19 1.48-.6 2.27-1.22s1.81-.94 3.06-.94c1.87 0 3.31.67 4.32 2.02 1.01 1.34 1.51 3 1.51 4.97 0 1.54-.54 3.01-1.62 4.43s-2.6 2.56-4.57 3.42-4.32 1.3-7.06 1.3ZM264.96 33.05c0 2.59-.89 4.64-2.66 6.16-1.78 1.51-3.94 2.27-6.48 2.27h-11.74v.86c2.4.1 4.43.75 6.08 1.94 1.66 1.2 2.92 2.69 3.78 4.46.86 1.78 1.3 3.62 1.3 5.54 0 2.83-.61 5.18-1.84 7.06-1.22 1.87-2.88 3.26-4.97 4.18-2.09.91-4.43 1.37-7.02 1.37-2.3 0-4.08-.4-5.33-1.19s-2.12-1.84-2.63-3.13c-.5-1.3-.76-2.66-.76-4.1 0-2.11.65-3.91 1.94-5.4 1.3-1.49 3.33-2.23 6.12-2.23h3.96l.36-.86c-.14-.43-.49-.97-1.04-1.62s-1.09-1.5-1.62-2.56-.79-2.33-.79-3.82c0-2.98.77-5.09 2.3-6.34 1.54-1.25 3.43-1.87 5.69-1.87V32.4c-2.26 0-4.15-.62-5.69-1.87s-2.3-3.34-2.3-6.26c0-1.54.26-2.81.79-3.82q.795-1.515 1.62-2.52c.55-.67.9-1.2 1.04-1.58l-.36-.79h-3.96c-2.78 0-4.8-.72-6.05-2.16s-1.87-3.19-1.87-5.26c0-1.49.24-2.84.72-4.07.48-1.22 1.33-2.21 2.56-2.95C237.33.38 239.1 0 241.4 0q3.885 0 7.02 1.26c2.09.84 3.74 2.17 4.97 4 1.22 1.83 1.84 4.18 1.84 7.06 0 1.82-.43 3.61-1.3 5.36-.86 1.75-2.12 3.2-3.78 4.36-1.66 1.15-3.68 1.78-6.08 1.87v.94h11.74c2.54 0 4.7.73 6.48 2.2 1.78 1.46 2.66 3.47 2.66 6.01Z"></path></svg>
+    </h2>
+
+  <p class="project-subtitle">
+    Your digital plant care assistant
+  </p>
+
+  <p class="project-description">
+    iPlant is an interactive plant care platform that helps users monitor and manage their plants efficiently. Users can track watering schedules, light requirements, and fertilising needs through a clean and responsive interface.
+  </p>
+
+  <div class="project-links">
+
+    <a
+      href="https://github.com/Lisa-Hauschild/iplant-#-iplant-web-app"
+      target="_blank"
+      class="project-button secondary"
+    >
+      View GitHub
+    </a>
+
+    <a
+      href="https://iplant-v53s.vercel.app/"
+      target="_blank"
+      class="project-button primary"
+    >
+      Live Demo
+    </a>
+
+  </div>
+
+
+    <section class="stack-section">
+ 
+
+
+
+  <h2>Tech Stack</h2>
+
+  <!-- CORE -->
+
+  <div class="stack-category">
+    <h3>Core</h3>
+
+    <div class="tech-group">
+
+      <span class="badge">
+  <i class="devicon-nextjs-original-wordmark"></i>
+  Next.js
+</span>
+
+      <span class="badge">
+        <i class="devicon-react-original"></i>
+        React
+      </span>
+
+      <span class="badge">
+        <i class="devicon-javascript-plain"></i>
+        JavaScript
+      </span>
+
+      <span class="badge">
+        <i class="devicon-nodejs-plain"></i>
+        Node.js
+      </span>
+
+      <span class="badge">
+        <i class="devicon-mongodb-plain"></i>
+        MongoDB
+      </span>
+
+    </div>
+  </div>
+
+  <!-- UI & UX -->
+
+  <div class="stack-category">
+    <h3>UI & UX</h3>
+
+    <div class="tech-group">
+
+      <span class="badge">
+        <i class="devicon-css3-plain"></i>
+        CSS
+      </span>
+      <span class="badge">
+  <i class="devicon-styledcomponents-plain"></i>
+  Styled Components
+</span>
+
+      <span class="badge">
+      
+
+  <i class="devicon-nextjs-original-wordmark"></i>
+        next-themes
+      </span>
+
+      <span class="badge">
+        <i class="devicon-react-original"></i>
+        React-Toastify
+      </span>
+
+    </div>
+  </div>
+
+  <!-- DATA & APIs -->
+
+  <div class="stack-category">
+    <h3>Data & APIs</h3>
+
+    <div class="tech-group">
+
+      <span class="badge">
+        <i class="devicon-react-original"></i>
+        SWR
+      </span>
+
+      <span class="badge">
+        <i class="devicon-mongoose-original"></i>
+        Mongoose
+      </span>
+
+      <span class="badge">
+        <i class="devicon-nodejs-plain"></i>
+        Formidable
+      </span>
+
+      <span class="badge">
+         <iconify-icon icon="simple-icons:cloudinary"></iconify-icon>
+        Cloudinary
+      </span>
+
+    </div>
+  </div>
+
+  <!-- TOOLING -->
+
+  <div class="stack-category">
+    <h3>Tooling</h3>
+
+    <div class="tech-group">
+
+      <span class="badge">
+        <i class="devicon-git-plain"></i>
+        Git
+      </span>
+
+      <span class="badge">
+        <i class="devicon-github-original"></i>
+        GitHub
+      </span>
+
+      <span class="badge">
+        <i class="devicon-vercel-original"></i>
+        Vercel
+      </span>
+
+      <span class="badge">
+         <iconify-icon icon="simple-icons:excalidraw"></iconify-icon>
+        Excalidraw
+      </span>
+
+    </div>
+  </div>
+
+</section>
+  </div>
+  <section class="project-goal">
+
+  <h2>Project Goal</h2>
+
+  <p>
+    iPlant helps plant owners organise and monitor plant care routines such as watering, light exposure, and fertilising schedules through a clean and responsive interface.
+  </p>
+
+  <p>
+    I built the project to strengthen my full-stack development skills and create a practical application with real-world functionality.
+  </p>
+
+  <p>
+    Future versions may include AI-powered plant identification through uploaded images.
+  </p>
+
+</section>
+
+
+  
+
+<section class="feature-showcase" id="featureShowcase">
+
+  <div class="section-header">
+    <h2>Feature Walkthrough</h2>
+
+    <label class="toggle-switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <!-- NEW GRID WRAPPER -->
+  <div class="feature-grid">
+       <div class="feature-item desktop-feature">
+
+  <div class="image-wrapper desktop-view">
+    <img class="img light" src="./assets/desktop view.png" />
+    <img class="img dark" src="./assets/desktop view (dark).png" />
+  </div>
+
+  <div class="feature-text">
+    <h3>Responsive Design</h3>
+    <p>
+      The interface adapts smoothly between mobile and desktop layouts for an optimal user experience.
+    </p>
+  </div>
+
+</div>
+
+    <!-- FEATURE 1 -->
+    <div class="feature-item">
+
+      <div class="image-wrapper">
+        <img class="img light" src="./assets/initial homepage view.png" />
+        <img class="img dark" src="./assets/initial homepage view (dark).png" />
+      </div>
+
+      <div class="feature-text">
+        <h3>Home Page</h3>
+        <p>
+          Initial landing page displaying an overview of the user’s plant collection with quick access to key actions.
+        </p>
+      </div>
+ </div>
+
+
+
+  <!-- FEATURE 2 -->
+  <div class="feature-item ">
+    <div class="image-wrapper">
+      <img class="img light" src="./assets/toggle favourites.png" />
+      <img class="img dark" src="./assets/toggle favourites (dark).png" />
+    </div>
+
+    <div class="feature-text">
+      <h3>Favourite Toggle</h3>
+      <p>Users can mark plants as favourites by clicking the flower icon.</p>
+    </div>
+  </div>
+
+  <!-- FEATURE 3 -->
+  <div class="feature-item">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/search plants.png" alt="Search plants" />
+    <img class="img dark" src="./assets/search plants (dark).png" alt="Search plants dark mode" />
+    </div>
+ 
+
+    <div class="feature-text">
+      <h3>Search Plants</h3>
+      <p>
+        A fuzzy search system that allows users to find plants even with typos or partial input.
+      </p>
+    </div>  
+  </div>
+ 
+
+  <!-- FEATURE 4 -->
+  <div class="feature-item">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/filter plants.png" alt="Filter plants" />
+    <img class="img dark" src="./assets/filter plants (dark).png" alt="Filter plants dark mode" />
+    </div>
+     
+
+    <div class="feature-text">
+      <h3>Filter System</h3>
+      <p>
+        Plants can be filtered based on watering frequency and light requirements for easier browsing.
+      </p>
+    </div>
+  </div>
+
+  <!-- FEATURE 5 -->
+  <div class="feature-item">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/plant need view .png" alt="Plant details page" />
+    <img class="img dark" src="./assets/plant need view (dark).png" alt="Plant details page dark mode" />
+    </div>
+    
+
+    <div class="feature-text">
+      <h3>Plant Details</h3>
+      <p>
+        Each plant has a detailed view showing watering, light, fertilising needs, and additional care information.
+      </p>
+    </div>
+  </div>
+
+  <!-- FEATURE 6 -->
+  <div class="feature-item ">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/add plant.png" alt="Add plant form" />
+    <img class="img dark" src="./assets/add plant (dark).png" alt="Add plant form dark mode" />
+    </div>
+     
+
+    <div class="feature-text">
+      <h3>Add Plants</h3>
+      <p>
+        Users can add custom plants, upload images, and assign care instructions. A default image is used if none is provided.
+      </p>
+    </div>
+  </div>
+
+  <!-- FEATURE 7 -->
+  <div class="feature-item">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/edit plants.png" alt="Edit plant" />
+    <img class="img dark" src="./assets/edit plants (dark).png" alt="Edit plant dark mode" />
+    </div>
+     
+
+    <div class="feature-text">
+      <h3>Edit Plants</h3>
+      <p>
+        Existing plants can be updated by clicking on the image to modify details or replace the uploaded photo.
+      </p>
+    </div>
+  </div>
+
+  <!-- FEATURE 8 -->
+  <div class="feature-item">
+     <div class="image-wrapper">
+    <img class="img light" src="./assets/toastmessage.png" alt="Toast message" />
+    <img class="img dark" src="./assets/toastmessage (dark).png" alt="Toast message dark mode" />
+    </div>
+     
+
+    <div class="feature-text">
+      <h3>Feedback System</h3>
+      <p>
+        Users receive toast notifications after successful actions such as editing or updating plant information.
+      </p>
+    </div>
+  </div>
+
+
+</section>
+</section>
+
+    
+
+</section>
+<section id="colour-palette">
+  <h2>Colour Palette</h2>
+  <div id="pantoneGrid" class="pantone-grid"></div>
+  </section>
+
+<section class="architecture-section">
+
+  <div class="architecture-header">
+    <h2>Architecture Overview</h2>
+    <p>
+      Feature-based React architecture with reusable UI components,
+      API routes, database models, and external service integrations.
+    </p>
+  </div>
+
+  <div class="architecture-card">
+
+<pre><code>iPlant
+│
+├── pages
+│   ├── index.js
+│   ├── create.js
+│   ├── my-plants.js
+│   ├── plants
+│   │   └── [id]
+│   │       ├── index.js
+│   │       └── edit.js
+│   │
+│   └── api
+│       ├── plants
+│       │   ├── index.js
+│       │   └── [id].js
+│       │
+│       └── upload
+│           └── index.js
+│
+├── components
+│   ├── Header
+│   ├── Navigation
+│   ├── ThemeSwitcher
+│   │
+│   ├── PlantCard
+│   │   └── BookmarkButton
+│   │
+│   ├── PlantSearch
+│   │   └── Fuse.js Search Logic
+│   │
+│   ├── PlantFilter
+│   │   ├── PlantFilter
+│   │   ├── WaterNeedFilter
+│   │   └── LightNeedFilter
+│   │
+│   ├── PlantForm
+│   │   ├── PlantForm
+│   │   ├── ImageUpload
+│   │   ├── WaterNeedFieldset
+│   │   ├── LightNeedFieldset
+│   │   ├── FertiliserSeasonFieldset
+│   │   └── Toast
+│   │
+│   └── ConfirmationModal
+│
+├── db
+│   ├── connect.js
+│   └── models
+│       └── PlantsSchema.js
+│
+├── public
+├── assets
+│
+└── external services
+    ├── MongoDB
+    ├── Cloudinary
+    └── Vercel</code></pre>
+
+  </div>
+
+</section>
+<section class="technical-decisions">
+
+  <div class="section-header">
+    <h2>Technical Decisions</h2>
+  </div>
+
+  <div class="decision-list">
+
+    <div class="decision-item">
+      <h3>Dynamic Rendering</h3>
+
+      <p>
+        Plant cards and detail pages were rendered dynamically instead of
+        being hardcoded. This allowed plant information to be fetched directly
+        from the database and made the application scalable, flexible, and
+        easier to extend with new content and features.
+      </p>
+    </div>
+
+    <div class="decision-item">
+      <h3>Component-Based Styling</h3>
+
+      <p>
+        Styled Components were used to keep styling closely connected to
+        individual React components. This improved maintainability,
+        encouraged reusable UI patterns, and helped organise the growing
+        codebase more efficiently.
+      </p>
+    </div>
+
+    <div class="decision-item">
+      <h3>Mobile-First Development</h3>
+
+      <p>
+        The interface was designed using a mobile-first approach to prioritise
+        usability on smaller screens from the beginning. Layouts and features
+        could then be progressively enhanced for tablet and desktop devices.
+      </p>
+    </div>
+
+    <div class="decision-item">
+      <h3>React Ecosystem</h3>
+
+      <p>
+        React was chosen for its reusable component architecture and strong
+        ecosystem of libraries. Tools such as Fuse.js enabled advanced
+        functionality like fuzzy searching while maintaining a responsive
+        and interactive user experience.
+      </p>
+    </div>
+    <div class="decision-item">
+  <h3>Accessibility</h3>
+
+  <p>
+    Accessibility was considered throughout the development process by using
+    semantic HTML, sufficient color contrast, descriptive alt text, accessible form labels.
+
+    Lighthouse accessibility guidelines were followed to ensure a more
+    inclusive and responsive user experience across different devices
+    and assistive technologies.
+  </p>
+</div>
+
+  </div>
+
+</section>
+
+<section class="challenge-section">
+
+  <div class="section-header">
+    <h2>Challenges & Solutions</h2>
+  </div>
+
+  <div class="challenge-card">
+
+    <div class="challenge-label">
+      Challenge
+    </div>
+
+    <h3>Dynamic Dark Mode Styling</h3>
+
+    <p>
+      Implementing dark mode became challenging because many UI elements,
+      including plant detail icons and care indicators, were rendered dynamically
+      from database values rather than static components.
+    </p>
+
+    <div class="challenge-label solution">
+      Solution
+    </div>
+
+    <p>
+      <span>next-themes</span> was used to manage application themes,
+      while icons and UI elements were conditionally styled based on both
+      the active theme and the plant data received from the database.
+      This ensured consistent visuals across dynamically rendered content
+      in both light and dark mode.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="workflow-section">
+ 
+    <h2>Project Workflow, Wireframes  &   User Flows </h2>
+    <p>
+      The development process combined user-centered planning, wireframing,
+      and agile task management to guide each feature from concept to final implementation.
+    </p>
+    <p>
+            Initial wireframes were created to map user flows, structure layouts,
+            and validate feature ideas before development began.
+          </p>
+  
+
+
+    
+    <!-- Wireframes -->
+    <div class="workflow-card wide-card">
+    
+       
+          <img src="./assets/plant filter wireframe.png" alt="Plant filter wireframe" />
+        </div>
+  
+    
+
+
+        
+          <h2>Agile Project Board</h2>
+          <p>
+            Tasks were managed through an agile workflow, moving from the product backlog
+            through development, testing, and final deployment.
+          </p>
+
+          <ul class="workflow-steps">
+            <li>Product Backlog </li>
+              <li>→</li>
+            <li>Approved User Stories</li>
+                 <li>→</li>
+            <li>Sprint Backlog</li>
+                 <li>→</li>
+            <li>In Progress</li>
+                 <li>→</li>
+            <li>Code Review</li>
+                 <li>→</li>
+            <li>Quality Assurance</li>
+                <li>→</li>
+            <li>Done ✨</li>
+          </ul>
+    
+
+        <div class="workflow-card wide-card">
+    
+       
+          <img src="./assets/iplant projectboard.png" alt="projectboard" />
+        </div>
+    
+
+
+
+
+
+
+
+  <div class="future-hero">
+
+    <span class="project-label">
+      Future Improvements
+    </span>
+
+    <h2 >
+      Image Upload & Plant Recognition
+    </h2>
+
+    <p >
+      One planned feature was intelligent plant image recognition during
+      the upload process. The goal was to simplify image uploads,
+      improve moderation and create a safer, more user-friendly experience.
+    </p>
+
+  </div>
+
+  <div class="future-content">
+
+    <div class="future-block">
+      <h3>Goals</h3>
+
+      <ul>
+        <li>Take photos directly with the device camera</li>
+        <li>Upload plant images more easily</li>
+        <li>Detect and warn about non-plant uploads</li>
+        <li>Keep the application child-friendly</li>
+      </ul>
+    </div>
+
+    <div class="future-block">
+      <h3>Planned Features</h3>
+
+      <ul>
+        <li>Next Cloudinary Upload Widget integration</li>
+        <li>Object detection with Cloudinary AI add-ons</li>
+        <li>Plant-related object validation</li>
+        <li>Fallback placeholder image handling</li>
+      </ul>
+    </div>
+
+    <div class="future-block">
+      <h3>Technical Approach</h3>
+
+      <ul>
+        <li>Cloudinary Upload Presets</li>
+        <li>Unsigned uploads</li>
+        <li>Object detection and categorization</li>
+        <li>React state management for validation</li>
+      </ul>
+
+      <p>
+        If uploaded images did not contain plant-related objects,
+        users would receive a warning asking them to upload
+        a plant image instead.
+      </p>
+    </div>
+
+    <div class="future-block">
+      <h3>Limitations</h3>
+
+      <p>
+        A more advanced plant-recognition API capable of identifying
+        specific plant species was also considered.
+      </p>
+
+      <p>
+        Due to API costs and budget limitations, the functionality
+        could not be implemented within the project scope.
+      </p>
+
+      <p>
+        Cloudinary’s built-in AI could only distinguish general
+        categories such as pots or vases, making accurate
+        plant recognition impossible.
+      </p>
+
+      <p>
+        With additional funding, this feature could significantly
+        improve the application's usability and overall experience.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="static-websites" class="static-websites-section">
+
+  <div class="website-header">
+
+    <h2 class="project-title">
+      Static Websites & Redesigns
+    </h2>
+
+    <p class="project-subtitle">
+      Alongside full-stack web applications, I also design and develop
+      responsive static websites using HTML, CSS, JavaScript, PHP,
+      and WordPress. My work includes modern UI design, legacy website
+      redesigns, debugging, performance improvements, and responsive layouts.
+    </p>
+
+      <section class="stack-section">
+
+    <h2>Tech Stack</h2>
+
+    <div class="tech-group">
+
+      <span class="badge">
+        <i class="devicon-html5-plain"></i>
+        HTML5
+      </span>
+
+      <span class="badge">
+        <i class="devicon-css3-plain"></i>
+        CSS3
+      </span>
+
+      <span class="badge">
+        <i class="devicon-javascript-plain"></i>
+        JavaScript
+      </span>
+
+      <span class="badge">
+        <i class="devicon-php-plain"></i>
+        PHP
+      </span>
+
+      <span class="badge">
+        <i class="devicon-wordpress-plain"></i>
+        WordPress
+      </span>
+
+      <span class="badge">
+        <i class="devicon-mariadb-plain"></i>
+        MariaDB
+      </span>
+
+      <span class="badge">
+        <i class="devicon-mysql-plain"></i>
+        MySQL
+      </span>
+
+      <span class="badge">
+        <i class="devicon-bootstrap-plain"></i>
+        Bootstrap
+      </span>
+
+    </div>
+
+   
+
+  </div>
+
+  <!-- =========================
+       WEBSITE PREVIEW GRID
+  ========================== -->
+
+  <div class="website-grid">
+
+    <div class="website-preview desktop-preview">
+      <img
+        src="./assets/website example 1.png"
+        alt="Homepage design example"
+      />
+    </div>
+
+    <div class="website-preview desktop-preview">
+      <img
+        src="./assets/website menu example 1.png"
+        alt="Website navigation example"
+      />
+    </div>
+     <div class="website-preview desktop-preview">
+      <img
+       src="./assets/website contact form.png"
+        alt="Contact form mobile view"
+  
+      />
+    </div>
+     <div class="website-preview desktop-preview">
+      <img
+      src="./assets/Website contactform 2.png"
+        alt="Contact form interface"
+      />
+    </div>
+
+    <div class="website-preview mobile-preview">
+      <img
+        src="assets/website mobile view 1.png"
+        alt="Contact form mobile view"
+      />
+    </div>
+
+    <div class="website-preview mobile-preview">
+      <img
+        src="assets/website mobile view 2.png"
+        alt="Contact form interface"
+      />
+    </div>
+
+  </div>
+
+
+
+
+
+  </section>
+
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
