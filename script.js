@@ -24,9 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-
-
 const toggle = document.getElementById("themeToggle");
 const showcase = document.getElementById("featureShowcase");
 
@@ -64,22 +61,22 @@ const pantoneColors = [
   {
     code: "#ffa94d",
     name: "--highlight-light",
-    color: "#ffa94d;",
+    color: "#ffa94d",
   },
   {
     code: "#fd7e14",
     name: " --highlight",
-    color: "#fd7e14;",
+    color: "#fd7e14",
   },
    {
-    code: "#041a0826",
+    code: "#cec8b1",
     name: " --icon-disabled",
-    color: "#041a0826",
+    color: "#cec8b1",
   },
   {
     code: "#c63f38",
     name: "--danger",
-    color: "#c63f38;",
+    color: "#c63f38",
   },
 ];
 
@@ -126,30 +123,46 @@ pantoneColors.forEach((item) => {
   grid.appendChild(card);
 });
 
-const task = document.getElementById("task");
-const doneColumn = document.getElementById("done-column");
 
-const wireframe1 = document.getElementById("wireframe-1");
-const wireframe2 = document.getElementById("wireframe-2");
+const scrollTopBtn =
+  document.getElementById("scrollTopBtn");
 
-task.addEventListener("dragstart", () => {
-  task.classList.add("dragging");
-});
+// show button after 1 viewport height
 
-task.addEventListener("dragend", () => {
-  task.classList.remove("dragging");
-});
+window.addEventListener("scroll", () => {
 
-doneColumn.addEventListener("dragover", (e) => {
-  e.preventDefault();
-});
+  if (window.scrollY > window.innerHeight) {
 
-doneColumn.addEventListener("drop", () => {
+    scrollTopBtn.classList.add("show");
 
-  doneColumn.appendChild(task);
+  } else {
 
-  wireframe1.src = "./assets/plant homepage after.png";
-  wireframe2.src = "./assets/plant detail after.png";
+    scrollTopBtn.classList.remove("show");
+
+  }
 
 });
 
+
+
+scrollTopBtn.addEventListener("click", () => {
+
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+
+});
+
+const triggerSection = document.querySelector(".future-block");
+
+window.addEventListener("scroll", () => {
+  const sectionTop = triggerSection.offsetTop;
+
+  if (window.scrollY >= sectionTop - 200) {
+    scrollTopBtn.classList.add("active-section");
+  } else {
+    scrollTopBtn.classList.remove("active-section");
+  }
+});
